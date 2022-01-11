@@ -1,0 +1,83 @@
+@media (max-width: 999px) {
+    header{
+        padding-top: 50px !important;
+        background-position: center !important;
+        background-size: cover !important;
+        h4{
+            font-size: 25px !important;
+        }
+
+        p{
+            font-size: 13px !important;
+        }
+        .image-content{
+            height: 300px;
+        }
+    }
+    .order-mobile-0{
+        order: 0 !important;
+    }
+    .order-mobile-1{
+        order: 1 !important;
+    }
+
+    .testimonials{
+        h4{
+            font-size: 25px !important;
+        }
+
+        p{
+            font-size: 14px !important;
+        }
+
+        .owl-testimonials{
+            margin-right: 0px !important;
+        }
+    }
+
+    .services{
+        .heading{
+            font-size: 25px !important;
+        }
+
+        .sub-title{
+            font-size: 14px !important;
+            width: 100%;
+        }
+        p{
+            font-size: 14px !important;
+        }
+    }
+    .help{
+        padding-top: 40px;
+
+        .content{
+            h4{
+                font-size: 25px !important;
+                line-height: 39px !important;
+            }
+
+
+        }
+
+        .image-content{
+            height: 234px !important;
+
+            img{
+                object-fit: contain !important;
+                object-position: bottom;
+            }
+        }
+    }
+
+    .download .content .flex-contain .app-btn img{
+        width: 134px !important;
+    }
+    .download .image-content{
+        height: 200px;
+    }
+
+    .copyrights .socail{
+        justify-content: center !important;
+    }
+}
