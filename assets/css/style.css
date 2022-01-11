@@ -465,6 +465,7 @@ header .content p {
   width: 100%;
   padding: 80px 0px 60px 0px;
   background-color: #FFD5D3;
+  overflow: hidden !important;
 }
 
 .download .image-content {
@@ -551,7 +552,7 @@ header .content p {
 
 .copyrights {
   width: 100%;
-  padding: 24px 0px;
+  padding: 24px 0px 10px 0px !important;
   background-color: #64668e;
 }
 
