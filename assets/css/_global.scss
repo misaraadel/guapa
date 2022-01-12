@@ -23,7 +23,7 @@
     scroll-behavior: smooth;
 
     &::selection{
-        background-color: #368B85;
+        background-color: #393a64;
         color: #fff; 
     }
     
@@ -36,7 +36,7 @@
     }
     
     &::-webkit-scrollbar-thumb {
-        background: #368B85; 
+        background: #393a64; 
         border-radius: 8px;
     }
 

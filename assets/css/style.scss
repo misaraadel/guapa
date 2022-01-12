@@ -70,6 +70,7 @@ header{
     padding: 140px 0px 70px 0px;
     overflow: hidden;
     background-color: rgba(239, 239, 242, 1);
+    display: none;
 
     .content{
         width: 100%;
@@ -161,9 +162,9 @@ header{
 
 .services{
     width: 100%;
-    padding: 70px 0px 70px 0px;
-    background-color: #fff;
+    padding: 140px 0px 70px 0px;
     overflow: hidden;
+    background-color: rgba(239, 239, 242, 1);
 
     .heading{
         color: #ff8b85;
@@ -341,7 +342,14 @@ header{
                     width: 175px;
                     height: 52px;
                     object-fit: contain;
+                    transition: all .4s linear;
                     object-position: right !important;
+                }
+
+                &:hover{
+                    img{
+                        transform: translateY(-10px);
+                    }
                 }
             }
         }

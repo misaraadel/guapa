@@ -25,12 +25,12 @@
 }
 
 *::-moz-selection {
-  background-color: #368B85;
+  background-color: #393a64;
   color: #fff;
 }
 
 *::selection {
-  background-color: #368B85;
+  background-color: #393a64;
   color: #fff;
 }
 
@@ -43,7 +43,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #368B85;
+  background: #393a64;
   border-radius: 8px;
 }
 
@@ -199,6 +199,7 @@ header .content p {
   padding: 140px 0px 70px 0px;
   overflow: hidden;
   background-color: #efeff2;
+  display: none;
 }
 
 .testimonials .content {
@@ -323,9 +324,9 @@ header .content p {
 
 .services {
   width: 100%;
-  padding: 70px 0px 70px 0px;
-  background-color: #fff;
+  padding: 140px 0px 70px 0px;
   overflow: hidden;
+  background-color: #efeff2;
 }
 
 .services .heading {
@@ -546,8 +547,15 @@ header .content p {
   height: 52px;
   -o-object-fit: contain;
      object-fit: contain;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
   -o-object-position: right !important;
      object-position: right !important;
+}
+
+.download .content .flex-contain .app-btn:hover img {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 .copyrights {
